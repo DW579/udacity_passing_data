@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './logo.svg';
-import ListItem from './ListItem'
+import ListItems from './ListItems'
 
 /*
 Use React and the data below to display a list of users alongside their favorite movies.
@@ -98,8 +98,6 @@ const movies = {
   },
 };
 
-// Jane Cruz's favorite movie is Planet Earth 1.
-
 class App extends Component {
   render() {
     return (
@@ -109,7 +107,7 @@ class App extends Component {
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
         <h2>Favorite Movies</h2>
-		<ListItem></ListItem>
+		<ListItems profiles={profiles} users={users} movies={movies}></ListItems>
       </div>
     );
   }
