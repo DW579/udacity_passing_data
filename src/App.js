@@ -97,6 +97,8 @@ const movies = {
   },
 };
 
+// Jane Cruz's favorite movie is Planet Earth 1.
+
 class App extends Component {
   render() {
     return (
