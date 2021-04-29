@@ -1,4 +1,4 @@
-Udacity Passing Data Exercise for React Nanodegree
+# Udacity Passing Data Exercise for React Nanodegree
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
